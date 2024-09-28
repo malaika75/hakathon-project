@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(122, 198, 233);
+}
+
+h1{
+    color: rgb(65, 56, 56)
+}
+
+legend{
+    color: rgb(4, 26, 151);
+    font-weight: bold;
+}
+.SKILL1{
+    height: 20vmin;
+    width: 20vmin;
+}
+.SKILL2{
+    height: 20vmin;
+    width: 20vmin;
+    margin-right: 20px;
+}
+
+.SKILL3{
+    width: 20vmin;
+    height: 20vmin;
+}
+
+.toggle-botton{
+    width: 30vmin;
+    height: 10vmin;
+    background-color: blue;
+    font-size: 3vmin;
+    font-weight: bold;
+    font-style: underline;
+}
+
+.skill-sec{
+    display: none;
+}
+
+fieldset{
+    background-color: rgb(208, 228, 247);
+    border: rgb(73, 180, 223) solid;
+    box-shadow: 0 0 150px rgb(91, 91, 177);
+    
+}

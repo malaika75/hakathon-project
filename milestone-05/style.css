@@ -1,0 +1,123 @@
+body{
+    background-color: bisque;
+}
+
+legend{
+    color: brown;
+}
+
+label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: brown;
+    margin-left: 20px;
+}
+
+.edu-sec{
+    margin-top: 30px;
+
+}
+
+.skill-sec{
+    margin-top: 30px;
+}
+
+.exp-sec{
+    margin-top: 30px;
+}
+
+#btn{
+    width: calc(100% - 40px); 
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 4vmin;
+    font-size: 20px;
+    color: rgb(141, 6, 6);
+    background-color: rgb(228, 160, 160);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+ textarea{
+    width: calc(100% - 40px); 
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+} 
+
+fieldset{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: rgba(168, 16, 16, 0.63) 1.5px solid;
+    background-color: rgba(250, 235, 215, 0.877);
+}
+
+input{
+     height: 25px 
+}
+
+#output{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: none;
+    outline: none;
+}
+
+#output h2 {
+    color: black;
+}
+
+.btn2{
+    width: calc(100% - 10px); 
+    margin: auto;
+    margin-top: 40px;
+    /* margin-left: 30vmin; */
+    margin-left: 2vmin;
+    color: rgb(12, 10, 10);
+    background-color: rgb(165, 160, 228);
+    padding: 10px;
+    border-radius: 8px;
+    font: 1.5em sans-serif;
+    font-weight: 100;
+
+}
+
+@media print {
+    #resume-form{
+        display: none;
+    }
+    .btn2 , #heading , .link1{
+        display: none!important;
+    }
+#output{
+        display: block;
+}
+}
+
+.link1 {
+    display: none; /* Default hidden */
+    color: rgb(5, 5, 5); /* Link color */
+    background-color: rgb(233, 167, 227); /* Temporary background */
+    text-decoration: underline; /* Link style */
+    padding: 10px;
+    border: black 1px solid;
+    width: calc(100% - 30px);
+    text-align: center;
+    margin-top : 25px;
+    /* margin-left: 60vmin; */
+    margin-left: 2vmin;
+    font-weight: 100;
+    font: 1.5em sans-serif;
+}
+    

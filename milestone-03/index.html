@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>RESUME GENERATOR</h1>
+    <form id="resume-form">
+        <fieldset class="info-sec">
+        <legend>PERSONAL INFORMATION</legend>
+        <pre>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+
+        <label for="phone number">Phone number:</label>
+        <input type="number" id="Phone-no" name="Phone-no" placeholder="Enter your phone number" required></pre>
+
+        <label for="profile pic">profile picture:</label>
+        <br>
+        <input type="file" id="pic" name="profile-pic" accept="image/*" required>
+
+    </fieldset>
+     <br>
+    <fieldset class="edu-sec">
+        <legend>EDUCATION</legend> 
+        <label for="EDUCATION">EDUCATION:</label>
+       <textarea type="text" id="edu" placeholder="Enter your education" rows="4"></textarea>
+    </fieldset>
+      <br>
+      <fieldset class="skill-sec">
+        <legend>SKILL</legend>
+        <label for="skills">skills:</label>
+        <br>
+        <textarea type="text" id="skill" placeholder="Enter your skills" rows="3"  required></textarea>
+    </fieldset>
+    <br>
+
+<fieldset class="exp-sec">
+         <legend>EXPERIENCE</legend> 
+        <label for="exp">WORK EXPERIENCE:</label>
+        <br>
+        <textarea id="EXP" placeholder="Describe your work experience here" rows="4"></textarea>
+    </fieldset>
+
+    <button type="submit" id="btn">Generate resume below</button>
+    </form>
+    <br>
+    <div id="output"></div>
+    
+<script src="main.js"></script>
+</body>
+</html>
