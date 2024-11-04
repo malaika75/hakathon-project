@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 id="heading">DYNAMIC RESUME GENERATOR</h1>
+    <form id="resume-form">
+        <fieldset class="info-sec">
+        <legend>PERSONAL INFORMATION</legend>
+        <pre>
+<label for="user-name">User-Name:</label>
+<input type="text" id="user-name" name="name" placeholder="Enter your user-name" required>
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+<label for="phone number">Phone number:</label>
+<input type="number" id="Phone-no" name="Phone-no" placeholder="Enter your phone number" required>
+
+<label for="locate">location:</label>
+<input type="text" id="locate" name="dob" placeholder="Enter your location" required>
+
+<label for="url">linkedIn url:</label>
+<input type="url"  id="linkedIn" placeholder="linkedIn url">
+
+<label for="url">portfolio link:</label>
+<input type="url"  id="port" name="portfolio" placeholder="portfolio">
+
+<label for="profile pic">profile picture:</label>
+<input type="file" id="pic" name="profile-pic" accept="image/*" required>
+</pre>
+        
+    </fieldset>
+     <br>
+    <fieldset class="edu">
+        <legend>EDUCATION</legend> 
+<pre>
+
+<label for="text">Degree:</label>
+<input type="text" name="degree">
+
+<label for="text">Study field:</label>
+<input type="text" name="studyfield">
+
+<label for="text">Institution:</label>
+<input type="text" name="institution">
+
+<label for="text">Graduation date:</label>
+<input type="date" name="graduation-date">
+
+<label for="text">GPA:</label>
+<input type="text" name="GPA">
+</pre>
+    </fieldset>
+
+      <br>
+      <fieldset class="skill-sec">
+        <legend>SKILL</legend>
+        <textarea type="text" id="skill" placeholder="Enter your skills" rows="3"  required></textarea>
+    </fieldset>
+    <br>
+
+<fieldset class="exp-sec">
+         <legend>EXPERIENCE</legend> 
+        <label for="exp">WORK EXPERIENCE:</label>
+        <br>
+        <textarea id="EXP" placeholder="Describe your work experience here" rows="4" required></textarea>
+    </fieldset>
+
+<br>
+    <fieldset>
+        <legend>Languages</legend> 
+        <input type="text" name="Language" id="lang" required>
+        <select name="proficiency" id="lang">
+            <option value="basic">basic</option>
+            <option value="fluent">fluent</option>
+            <option value="native">native</option>
+        </select>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend>Certificate</legend>
+    <input type="text" id="certificate" name="certificate" required>
+</fieldset>
+
+<br>
+    <fieldset>
+        <legend>Cover Letter</legend>
+    <textarea id="cover-letter" name="cover-letter" rows="5" required></textarea>
+</fieldset>
+
+    <button type="submit" id="btn">Generate resume below</button>
+    </form>
+    <br>
+    <div id="output"></div>
+    <button id="edit" style="display: none;">Edit resume</button>
+    
+    <div>
+        <!-- <h4 class="link">sherable link</h4> -->
+         <a href="#" class="link1" target="_blank"></a>
+        <button type="button" class="btn2 btn"  style="display: none;">DOWNLOAD AS PDF</button>
+    </div>
+
+    
+<script src="main.js" defer></script>
+</body>
+</html>
